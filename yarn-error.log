@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add nodemon
+
+PATH: 
+  /Users/trgulece/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "minimal-node-application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ebru Gulec",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
